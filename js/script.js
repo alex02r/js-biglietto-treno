@@ -2,6 +2,9 @@
 let km = prompt('Inserisci quanti chilomentri vuoi percorrere: ');
 let eta = prompt('Inserisci la tua età: ');
 
+//visualizate information on html file
+document.getElementById('km').innerHTML += " " + km;
+document.getElementById('eta').innerHTML += " " + eta;
 //define the price
 let prezzo = km * 0.21;
 
