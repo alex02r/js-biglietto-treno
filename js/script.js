@@ -7,11 +7,11 @@ let prezzo = km * 0.21;
 
 if(eta < 18){
     //Add 20% discount
-    prezzo = (prezzo * 20 / 100).toFixed(3);
+    prezzo = (prezzo * 20 / 100).toFixed(2);
 
 }else if(eta > 65){
     //Add 40% discount
-    prezzo = (prezzo * 40 / 100).toFixed(3);
+    prezzo = (prezzo * 40 / 100).toFixed(2);
 
 }
 
