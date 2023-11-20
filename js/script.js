@@ -18,4 +18,5 @@ if(eta < 18){
 
 }
 
+document.getElementById('prezzo').innerHTML = prezzo;
 console.log(prezzo);
